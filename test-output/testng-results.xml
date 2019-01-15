@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24242" started-at="2019-01-08T18:25:44Z" finished-at="2019-01-08T18:26:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24242" started-at="2019-01-08T18:25:44Z" finished-at="2019-01-08T18:26:08Z">
+      <class name="tests.ContactUsTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.ContactUsTest@18be83e4]" name="startDriver" is-config="true" duration-ms="26499" started-at="2019-01-08T18:25:17Z" finished-at="2019-01-08T18:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanContactUs()[pri:0, instance:tests.ContactUsTest@18be83e4]" name="userCanContactUs" duration-ms="24212" started-at="2019-01-08T18:25:44Z" finished-at="2019-01-08T18:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanContactUs -->
+        <test-method status="PASS" signature="screenShotFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@18be83e4]" name="screenShotFailure" is-config="true" duration-ms="2" started-at="2019-01-08T18:26:08Z" finished-at="2019-01-08T18:26:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanContactUs status=SUCCESS method=ContactUsTest.userCanContactUs()[pri:0, instance:tests.ContactUsTest@18be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.ContactUsTest@18be83e4]" name="stopDriver" is-config="true" duration-ms="744" started-at="2019-01-08T18:26:08Z" finished-at="2019-01-08T18:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.ContactUsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
