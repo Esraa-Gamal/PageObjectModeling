@@ -1,2 +1,2 @@
 # PageObjectModeling
-This is how to setup the environment
+This is how to setup the environment of selenium
